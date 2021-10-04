@@ -1,0 +1,89 @@
+@font-face {
+    font-family:'courier';
+    src: url(fonts/courier-typeface.woff);
+    src: url(fonts/courier-typeface.woff) format('woff');
+}
+/* Entire Grid */
+.grid-one {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 200px) 50px;
+    
+}
+
+/* All Individual Cells */
+.cell {
+    text-align: center;
+    color: white;
+    font-family: 'courier';
+    font-size: 1.5em;
+    padding-top: 90px;
+}
+
+/* Row One */
+.header-one {
+    grid-column: 1/13;
+    grid-row: 1/2;
+    background-color: #0093ff;
+}
+
+/* Row Two */
+.side-one {
+    grid-column: 1/7;
+    grid-row: 2/3;
+    background-color: #eaac21;
+}
+
+
+.side-two {
+    grid-column: 7/13;
+    grid-row: 2/3;
+    background-color: #ffe200;
+}
+
+/* Row Three */
+.main-one {
+    grid-column: 1/10;
+    grid-row: 3/4;
+    background-color: #65bcb5;
+}
+
+.div-one {
+    grid-column: 10/13;
+    grid-row: 3/4;
+    background-color: #0093ff;
+}
+
+/* Row Four */
+.side-three {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: #eaac21;
+}
+
+.side-four {
+    grid-column: 5/9;
+    grid-row: 4/5;
+    background-color: #ffe200;
+}
+
+.side-five {
+    grid-column: 9/13;
+    grid-row: 4/5;
+    background-color: #eaac21;
+}
+
+/* Row Five */
+.main-two {
+    grid-column: 1/13;
+    grid-row: 5/6;
+    background-color: #65bcb5;
+}
+
+/* Row Six */
+.foot-one {
+    grid-column: 1/13;
+    grid-row: 6/7;
+    background-color: #0093ff;
+    padding-top: 10px;
+}
